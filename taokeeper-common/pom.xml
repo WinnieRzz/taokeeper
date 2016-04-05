@@ -14,7 +14,6 @@
 	<packaging>jar</packaging>
 
 	<dependencies>
-
 		<!-- ZooKeeper -->
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
@@ -29,24 +28,19 @@
 			<groupId>com.taobao.taokeeper</groupId>
 			<artifactId>zkclient</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>common.toolkit</groupId>
 			<artifactId>common-toolkit</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>common.toolkit</groupId>
 			<artifactId>common-toolkit</artifactId>
 			<classifier>sources</classifier>
 		</dependency>
-
-
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-
 		<dependency>
 			<artifactId>commons-lang</artifactId>
 			<groupId>commons-lang</groupId>
@@ -61,13 +55,10 @@
 			<artifactId>commons-codec</artifactId>
 			<version>1.7</version>
 		</dependency>
-
-
 		<!-- DEPENDENCIES FOR TEST -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
-
 </project>

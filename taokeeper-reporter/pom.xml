@@ -12,15 +12,11 @@
 	<artifactId>taokeeper-reporter</artifactId>
 	<packaging>jar</packaging>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>com.taobao.taokeeper</groupId>
 			<artifactId>taokeeper-common</artifactId>
 			<version>${taokeeper.version}</version>
 		</dependency>
-
 	</dependencies>
-
-
 </project>

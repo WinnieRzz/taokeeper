@@ -11,5 +11,4 @@
 	<name>taokeeper-build</name>
 	<artifactId>taokeeper-build</artifactId>
 	<packaging>jar</packaging>
-
 </project>
