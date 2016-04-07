@@ -14,7 +14,7 @@
 		<pattern>/logout.do*</pattern>
 		<pattern>/account.do*</pattern>
 
-		<!-- ÒÔÏÂÕâÁ½¸öÇëÇó¾Í²»ÒªsitemeshÀ´äÖÈ¾ÁË,²»È»coreÖÐhttpclientÒªÂé·³Ðí¶à. -->
+		<!-- ä»¥ä¸‹è¿™ä¸¤ä¸ªè¯·æ±‚å°±ä¸è¦sitemeshæ¥æ¸²æŸ“äº†,ä¸ç„¶coreä¸­httpclientè¦éº»çƒ¦è®¸å¤š. -->
 		<pattern>/needLogin.do*</pattern>
 		<pattern>/authorise.do*</pattern>
 

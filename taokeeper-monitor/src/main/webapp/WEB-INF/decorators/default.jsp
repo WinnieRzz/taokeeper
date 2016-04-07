@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<%@ page language="java" pageEncoding="GBK"%><%@ include
+<%@ page language="java" pageEncoding="UTF-8"%><%@ include
 	file="/WEB-INF/common/taglibs.jsp"%>
 <html>
 <head>
@@ -33,9 +33,9 @@
 </div>
 <div id="breadcrumbs">
 <div class="xright">
-<a target="_blank" href="http://baike.corp.taobao.com/index.php/ZooKeeper_Lab">TaoKeeper百科</a>
+<a target="_blank" href="http://baike.corp.taobao.com/index.php/ZooKeeper_Lab">TaoKeeper鐧剧</a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a target="_blank" href="http://www2.im.alisoft.com/webim/tribe/tribeDetail.htm?tribeId=405776981">ZooKeeper 交流群：405776981</a>
+<a target="_blank" href="http://www2.im.alisoft.com/webim/tribe/tribeDetail.htm?tribeId=405776981">ZooKeeper 浜ゆ祦缇わ細405776981</a>
 </div>
 <div class="clear">
 <hr />

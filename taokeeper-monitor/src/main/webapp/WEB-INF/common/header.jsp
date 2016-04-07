@@ -1,4 +1,4 @@
-<%@ page language="java" pageEncoding="GBK"%><%@ include
+<%@ page language="java" pageEncoding="UTF-8"%><%@ include
 	file="/WEB-INF/common/taglibs.jsp"%>
 <div id="navcolumn" style="height: 100px;">
 	<ul>
@@ -6,13 +6,13 @@
 		<li>Monitor
 			<ul>
 				<li><a
-					href="<c:url value="/zooKeeper.do?method=zooKeeperSettingsPAGE" />">¼¯ÈºÅäÖÃ</a></li>
+					href="<c:url value="/zooKeeper.do?method=zooKeeperSettingsPAGE" />">é›†ç¾¤é…ç½®</a></li>
 				<li><a
-					href="<c:url value="/zooKeeperStatus.do?method=showZooKeeperStatusPAGE" />">¼¯Èº¼à¿Ø</a></li>
+					href="<c:url value="/zooKeeperStatus.do?method=showZooKeeperStatusPAGE" />">é›†ç¾¤ç›‘æ§</a></li>
 				<li><a
-					href="<c:url value="/hostPerformance.do?method=showHostPerformancePAGE" />">»úÆ÷¼à¿Ø</a></li>
+					href="<c:url value="/hostPerformance.do?method=showHostPerformancePAGE" />">æœºå™¨ç›‘æ§</a></li>
 				<li><a
-					href="<c:url value="/alarmSettings.do?method=alarmSettingsPAGE" />">±¨¾¯ÉèÖÃ</a></li>
+					href="<c:url value="/alarmSettings.do?method=alarmSettingsPAGE" />">æŠ¥è­¦è®¾ç½®</a></li>
 			</ul>
 		</li>
 
@@ -20,9 +20,9 @@
 		<li>Admin
 			<ul>
 				<li><a
-					href="<c:url value="admin.do?method=switchOfNeedAlarmPAGE" />">±¨¾¯¿ª¹Ø</a></li>
+					href="<c:url value="admin.do?method=switchOfNeedAlarmPAGE" />">æŠ¥è­¦å¼€å…³</a></li>
 				<li><a
-					href="<c:url value="admin.do?method=setSystemConfigPAGE" />">ÏµÍ³ÉèÖÃ</a></li>
+					href="<c:url value="admin.do?method=setSystemConfigPAGE" />">ç³»ç»Ÿè®¾ç½®</a></li>
 			</ul>
 		</li>
 
@@ -30,9 +30,9 @@
 		<!-- 
 	<li>Reports
 		<ul>
-			<li><a href="">ÈÕ±¨</a></li>
-			<li><a href="">ÖÜ±¨</a></li>
-			<li><a href="">Ç÷ÊÆ</a></li>
+			<li><a href="">æ—¥æŠ¥</a></li>
+			<li><a href="">å‘¨æŠ¥</a></li>
+			<li><a href="">è¶‹åŠ¿</a></li>
 		</ul>
 	</li>
 -->

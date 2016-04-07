@@ -54,11 +54,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<filter-class>common.toolkit.java.filter.RequestCharacterEncodingFilter</filter-class>
 		<init-param>
 			<param-name>request-encoding-post</param-name>
-			<param-value>GBK</param-value>
+			<param-value>UTF-8</param-value>
 		</init-param>
 		<init-param>
 			<param-name>request-encoding-get</param-name>
-			<param-value>GBK</param-value>
+			<param-value>UTF-8</param-value>
 		</init-param>
 	</filter>
 	<filter-mapping>

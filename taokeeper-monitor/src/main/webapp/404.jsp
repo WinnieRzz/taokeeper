@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<%@ page language="java" pageEncoding="GBK"%><%@ include
+<%@ page language="java" pageEncoding="UTF-8"%><%@ include
 	file="/WEB-INF/common/taglibs.jsp"%>
 <html>
 <head>
@@ -28,15 +28,15 @@
 </div>
 </div>
 <div id="breadcrumbs">
-<div class="xright"><a href="<c:url value="/login.do" />">��¼</a> |
-<a href="<c:url value="/logout.do" />">�˳�</a></div>
+<div class="xright"><a href="<c:url value="/login.do" />">登录</a> |
+<a href="<c:url value="/logout.do" />">退出</a></div>
 <div class="clear">
 <hr />
 </div>
 </div>
 <div id="leftColumn"><jsp:include
 	page="/WEB-INF/common/header.jsp" flush="true" /></div>
-<div id="rightColumn" style="padding: 20px 0 0 20px;">�������ҳ�治���ڣ�</div>
+<div id="rightColumn" style="padding: 20px 0 0 20px;">您请求的页面不存在！</div>
 <jsp:include page="/WEB-INF/common/footer.jsp" flush="true" />
 </body>
 </html>
