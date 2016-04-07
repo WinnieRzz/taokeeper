@@ -12,11 +12,11 @@ import common.toolkit.java.util.StringUtil;
  */
 public class SystemConstant {
 
-	public final static String ZOOKEEPER_MONITOR_PATH = "/YINSHI.MONITOR.ALIVE.CHECK";
+	public final static String ZOOKEEPER_MONITOR_PATH = "/CH.MONITOR.ALIVE.CHECK";
 
 	public final static String AUTHENTICATION_TYPE = "digest";
 
-	public final static String AUTHENTICATION_KEY = "yinshi.nc:taobao";
+	public final static String AUTHENTICATION_KEY = "bd.b:ch";
 
 	/** delay of check zookeeper watcher notify */
 	public final static int DELAY_SECS_OF_TWO_SERVER_ALIVE_CHECK_ZOOKEEPER = 5; // 两个ip检测的间隔
@@ -46,7 +46,7 @@ public class SystemConstant {
 	public static int portOfSSH     = 22;
 
 	/** ZooKeeper监控信息存储设置客户端统计信息文件存放目录 */
-	public static String dataStoreBasePath = "/home/yinshi.nc/zookeeper-monitor";
+	public static String dataStoreBasePath = "/home/taokeeper/zookeeper-monitor";
 	
 	public static String dataStoreCategoryPath_clientStat = "/ZooKeeperClientThroughputStat/";
 	public static String PREFIX_OF_ZOOKEEPER_CLIENT_STAT_FILE_NAME = "zookeeper-client-";

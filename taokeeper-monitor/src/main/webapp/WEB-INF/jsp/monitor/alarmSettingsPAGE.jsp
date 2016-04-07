@@ -81,9 +81,9 @@ a:visited { text-decoration:none}
 		 	<font color="blue">样例</font>：<b>|只能出现|^|不能出现| </b>
 		 	<br>
 		 	<font color="blue">例子</font>：
-		 	 <b>|/</b>:nileader,yinshi;<b>/nileader</b>:test<b>|</b>^<b>|/</b>:test<b>|</b><br>
+		 	 <b>|/</b>:nileader,ch;<b>/nileader</b>:test<b>|</b>^<b>|/</b>:test<b>|</b><br>
 	 		 <font color="blue">表示</font>：<br>
-	  		"<b>/</b>"这个path下，只能够出现nileader和yinshi这两个节点，"<b>/nileader</b>" 这个path下，只能够出现test节点, "<b>/</b>" 这个path下，不能够出现test节点<br>
+	  		"<b>/</b>"这个path下，只能够出现nileader和ch这两个节点，"<b>/nileader</b>" 这个path下，只能够出现test节点, "<b>/</b>" 这个path下，不能够出现test节点<br>
 		 	</td>
 		 </tr>
 
@@ -94,7 +94,7 @@ a:visited { text-decoration:none}
 		 	<td colspan="2"   ><b>报警对象</b></td>
 		 </tr>
 		 <tr>
-		 	<td>旺旺</td>
+		 	<td>EMAIL</td>
 		 	<td><input type="text" name="wangwangList" id="wangwangList"  value="${alarmSettings.wangwangList}" size="50"/></td>
 		 </tr>
 		 <tr>

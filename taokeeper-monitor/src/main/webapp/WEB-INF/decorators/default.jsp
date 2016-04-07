@@ -32,11 +32,11 @@
 </div>
 </div>
 <div id="breadcrumbs">
-<div class="xright">
+<!--div class="xright">
 <a target="_blank" href="http://baike.corp.taobao.com/index.php/ZooKeeper_Lab">TaoKeeper百科</a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a target="_blank" href="http://www2.im.alisoft.com/webim/tribe/tribeDetail.htm?tribeId=405776981">ZooKeeper 交流群：405776981</a>
-</div>
+</div-->
 <div class="clear">
 <hr />
 </div>

@@ -72,7 +72,7 @@ a:visited { text-decoration:none}
 
 <br/><br/>
 <b>提示</b>:<br><br>
- 1. 节点自检 是指对集群中每个IP所在ZK节点上的PATH:  <b>/YINSHI.MONITOR.ALIVE.CHECK</b> 定期进行三次如下流程 : <br/>
+ 1. 节点自检 是指对集群中每个IP所在ZK节点上的PATH:  <b>/CH.MONITOR.ALIVE.CHECK</b> 定期进行三次如下流程 : <br/>
 <b>节点连接</b> - <b>数据发布</b> - <b>修改通知</b> - <b>获取数据</b> - <b>数据对比</b>, 三次流程均成功视为该节点处于正常状态。<br><br>
  2. 角色分类：<b>L</b>: Leader, <b>F</b>: Follower, <b>O</b>: Observer, <b>S</b>: Standalone
  
