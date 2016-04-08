@@ -80,7 +80,6 @@ a:visited { text-decoration:none}
  <br>
  <br>
 
-<!--
 <h1>ZooKeeper实时RT监控</h1>
 <table border="0" cellspacing="0" cellpadding="0" style="width: 50px;">
 
@@ -92,7 +91,6 @@ a:visited { text-decoration:none}
         </c:forEach>
     </tr>
 
-
         <c:forEach var="clusterRTStats" items="${clusterRTStatsMap}">
     <tr>
                 <td>server:${ clusterRTStats.key }</td>
@@ -103,7 +101,6 @@ a:visited { text-decoration:none}
     </tr>
         </c:forEach>
 </table>
--->
 
  <br>
   <h1>ZooKeeper实时读写TPS</h1>

@@ -438,12 +438,6 @@ public class ZKServerStatusCollector implements Runnable {
         }
     }
 
-
-
-
-
-
-
     // 检查并进行报警
     private void checkAndAlarm( AlarmSettings alarmSettings, ZooKeeperStatus zooKeeperStatus, String clusterName ) {
 
@@ -535,20 +529,5 @@ public class ZKServerStatusCollector implements Runnable {
             e.printStackTrace();
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
